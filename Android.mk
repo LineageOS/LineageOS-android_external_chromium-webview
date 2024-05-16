@@ -25,6 +25,7 @@ LOCAL_MODULE_CLASS := APPS
 LOCAL_PRODUCT_MODULE := true
 LOCAL_MULTILIB := both
 LOCAL_CERTIFICATE := $(DEFAULT_SYSTEM_DEV_CERTIFICATE)
+LOCAL_OPTIONAL_USES_LIBRARIES := androidx.window.extensions
 LOCAL_REQUIRED_MODULES := \
         libwebviewchromium_loader \
         libwebviewchromium_plat_support
